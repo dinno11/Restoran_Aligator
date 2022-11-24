@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sekcija-1 {
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#121212;
+    text-decoration: none;
+}
+
+.navbar ul {
+    padding-left: 38%;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #eecf90;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    list-style: none;
+}
+
+.navbar li:hover{
+    border: 1px solid #eecf90;
+    background-color: #eecf90;
+    border-radius: 8px;
+    color: black;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.navbar h1 {
+    color: #0b8515;
+    padding-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar b {
+    color: #910912;
+}
+
+.sredina {
+    height: 60vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(IMG_7865.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sredina h1 {
+    text-transform: uppercase;
+    color: #eecf90;
+    font-family: Sofia , sans-serif;
+    font-style: italic;
+    padding-left: 38%;
+    padding-top: 10%;
+    font-size: 70px;
+}
+.sredina p {
+    color: #eecf90;
+    font-size: 20px;
+    margin-top: 2%;
+    padding-left: 43%;
+}
+
+.sredina .plate {
+    height: 150px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    opacity: 0.5;
+}
+.sredina .plate2 {
+    height: 150px;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 10%;
+    opacity: 0.5;
+}
+
+.sekcija-2 {
+    height: 150vh;
+    width: 100%;
+    background-color: #121212;
+}
+
+.gornje h1 {
+    color: #eecf90;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.gornje .prvo {
+    margin-top: 4%;
+}
+.gornje p {
+    color: white;
+    margin-top: 27px;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.gornje .jelo {
+    position: absolute;
+    height: 280px;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+.mapa h1 {
+    color: #eecf90;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 60%;
+    padding-top: 20%;
+    font-size: 27px;
+}
+
+.mapa .karta {
+    margin-left: 20%;
+    margin-top: 12%;
+    border: 10px solid #eecf90;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.mapa .tekst {
+    margin-left: 60%;
+    margin-top: 2%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sekcija-3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #121212;
+}
+.sekcija-3 h1 {
+    color: #eecf90;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20%;
+    padding-top: 1%;
+}
+
+.prve {
+    display: flex;
+}
+
+.prve .first {
+    height: 300px;
+    padding-left: 20%;
+    margin-top: 4%;
+}
+
+.prve .second {
+    height: 300px;
+    padding-left: 10%;
+    margin-top: 4%;
+}
+
+.druge {
+    display: flex;
+}
+
+.druge .treca {
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+.druge .cetvrta{
+    height: 300px;
+    padding-left: 10%;
+    margin-top: 4%;
+}
+
+.kontakt {
+    height: 50vh;
+    width: 100%;
+    background-color: #121212;
+}
+
+.kontakt h1 {
+    color: #eecf90;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.drustvo {
+    display: block;
+}
+
+.drustvo .insta {
+    color: #eecf90;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+
+.drustvo .face {
+    color: #eecf90;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.drustvo .whats {
+    color: #eecf90;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.call{
+    display: flex;
+}
+.call-2 {
+    margin-left: 20%;
+    margin-top: 3%;
+    color: #eecf90;
+    font-size: 30px;
+}
+.call p {
+    margin-top: 3%;
+    margin-left: 1%;
+    font-size: 20px;
+    color: #eecf90;
+}
+.footer {
+    background-color: black;
+    height: 10vh;
+}
+.footer h1 {
+    padding-left: 37%;
+    font-size: 20px;
+    padding-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #bbbdbf;
+}
