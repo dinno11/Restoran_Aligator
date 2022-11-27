@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sekcija-1 {
+    height: 100vh;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+
+.navbar {
+    height: 13vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+
+.navbar .logo {
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #4955c9;
+}
+.navbar h1 {
+    margin-left: 4%;
+    margin-top: 2%;
+    color: #4955c9;
+}
+
+.navbar button {
+    height: 25%;
+    margin-left: 23%;
+    margin-top: 1.5%;
+    padding: 1% 5% 2%;
+    background-color: white;
+    border: 1px solid #4955c9;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #4955c9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar button:hover {
+    background-color: #4955c9;
+    color: white;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.navbar a {
+    margin-left: 10px;
+}
+.navbar .menu {
+    margin-left: 30%;
+    margin-top: 2%;
+    font-size: 40px;
+    border: 1px solid #4955c9;
+    border-radius: 60%;
+    color: #4955c9;
+}
+
+.navbar .menu:hover {
+    background-color: #4955c9;
+    color: white;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.glavno  {
+    height: 60%;
+    width: 70%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(weather.jpg);
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 4%;
+    border: 1px solid #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 5px 8px 8px 8px #888;
+}
+.glavno h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 5;
+    font-size: 70px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.glavno .dan {
+    margin-top: 2%;
+}
+.glavno p {
+    margin-left: 8%;
+    margin-top: 10px;
+    font-size: 21px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dalje {
+    display: flex;
+    position: absolute;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.pet {
+    padding-left: 30%;
+    margin-top: 10%;
+}
+.pet:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.pet-2 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+}
+.pet-3 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.sest{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.sest:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.sest-2 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+}
+.sest-3 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.sedam {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.sedam:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.sedam-2 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+}
+.sedam-3 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.osam {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.osam:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.osam-2 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+}
+.osam-3 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 30px;
+}
+
+.dev {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.dev:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.dev-2 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+}
+.dev-3 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 30px;
+}
+
+.dva {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.dva:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+.dva-2 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    font-size: 15px;
+}
+.dva-3 {
+    margin-left: 15%;
+    margin-top: 10px;
+    color: yellow;
+    font-size: 30px;
+}
+
+.dalje p {
+    font-size: 18px;
+}
+.sekcija-2{
+    height: 100vh;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+
+.pon {
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px 3px #888;
+    display: flex;
+}
+.pon:hover {
+    transform: translateX(40px);
+    cursor: pointer;
+    background-color: #4955c9;
+    color: white;
+    transition: 0.3s;
+}
+
+.pon h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.7%;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.pon .pone {
+    font-size: 40px;
+    margin-left: 50%;
+    margin-top: 1.7%;
+}
+
+.pon p {
+    margin-left: 6%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+.uto {
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px 3px #888;
+    display: flex;
+}
+.uto:hover {
+    transform: translateX(40px);
+    cursor: pointer;
+    background-color: #4955c9;
+    color: white;
+    transition: 0.3s;
+}
+.uto h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.7%;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.uto .utor {
+    font-size: 40px;
+    margin-left: 57%;
+    margin-top: 1.7%;
+}
+.uto p {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.sri {
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px 3px #888;
+    display: flex;
+}
+.sri:hover {
+    transform: translateX(40px);
+    cursor: pointer;
+    background-color: #4955c9;
+    color: white;
+    transition: 0.3s;
+}
+.sri h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.7%;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.sri .srij{
+    font-size: 40px;
+    margin-left: 56%;
+    margin-top: 1.7%;
+}
+.sri p {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.ceta {
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px 3px #888;
+    display: flex;
+}
+.ceta:hover {
+    transform: translateX(40px);
+    cursor: pointer;
+    background-color: #4955c9;
+    color: white;
+    transition: 0.3s;
+}
+.ceta h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.7%;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.ceta .cetv{
+    font-size: 40px;
+    margin-left: 54%;
+    margin-top: 1.7%;
+}
+.ceta p {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.peta {
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px 3px #888;
+    display: flex;
+}
+.peta:hover {
+    transform: translateX(40px);
+    cursor: pointer;
+    background-color: #4955c9;
+    color: white;
+    transition: 0.3s;
+}
+.peta h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.7%;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.peta .petak{
+    font-size: 40px;
+    margin-left: 59%;
+    margin-top: 1.7%;
+}
+.peta p {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-size: 25px;
+}
+.footer {
+    background-color: white;
+    height: 10vh;
+}
+.footer h1 {
+    padding-left: 37%;
+    font-size: 20px;
+    padding-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
